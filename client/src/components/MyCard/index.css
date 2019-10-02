@@ -1,0 +1,11 @@
+.card {
+  display: inline-block; /* Creates row of cards, rather than single column */
+  margin: 1%; /* For spacing cards apart */
+}
+
+.card-body {
+  text-align: left; /* To exit card-center */
+}
+
+
+

@@ -1,0 +1,53 @@
+.countdown-banner {
+  margin: 35px;
+  padding: 2rem;
+}
+
+.time {
+  display: inline;
+  font-size: 56px;
+  font-size: 3.5rem; 
+}
+
+.time-titles {
+  font-size: 25px;
+  font-size: 1.5rem;
+  display: inline-block;
+}
+
+.banner-text {
+  background:
+    url(/images/lights.jpg)  
+    repeat center center;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 40px;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+li {
+  display: inline-block;
+  font-size: .7em;
+  text-align: center;
+  list-style-type: none;
+  padding: .7em;
+  background: white;
+  border-radius: 10%;
+  margin: .5%;
+}
+
+.timetest {
+  display: block;
+  font-size: 1.5rem;
+}
+
+
+
+ 
+
+
+
+
+

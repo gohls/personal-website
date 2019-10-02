@@ -1,0 +1,27 @@
+.banner {
+  background-image: url(/images/earth-rotate.jpeg);
+  /* Source: https://coolbackgrounds.io/ */
+  /* background: linear-gradient(45deg, #080808 0%, #5489af 100%); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  border-radius: 0%;
+}
+
+.welome-msg-header {
+  font-size: 56px;
+  font-size: 3.5rem; 
+
+}
+
+.welome-msg-sub {
+  font-size: 25px;
+  font-size: 1.5rem; 
+}
+
+/* .example{
+  position:absolute !important;
+  right: 95px;
+  } */
+
+
