@@ -1,10 +1,9 @@
 import React from "react";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Button from "react-bootstrap/Button";
-// import Particles from "react-particles-js";
 import "./index.css";
 
-class MyProfileBanner extends React.Component {
+export default class MyProfileBanner extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -26,24 +25,20 @@ class MyProfileBanner extends React.Component {
 
   render() {
     return (
-      <Jumbotron className="banner" id="particles-js">
-        {/* <Particles canvasClassName="example"
-          height="220px"
-          width="500px"
-          align-content="right"
-        /> */}
-        <h3 className="welome-msg-header">Good {this.state.timeOfDay}, I'm Simon!</h3>
+      <Jumbotron className="banner">
+        <h3 className="welome-msg-header">Good {this.state.timeOfDay}, I'm Simon.</h3>
         <div className="welome-msg-sub">
           I'm a senior computer science student at St.
           Edward's University.
           </div>
         <br />
-        <p>
-          <Button variant="primary">Learn more</Button>
-        </p>
+        <span>
+          <a class="fab fa-linkedin fa-3x"> </a>
+          <a class="fab fa-bitbucket fa-3x"></a>
+          <a class="fab fa-hackerrank fa-3x"></a>
+          <a class="fas fa-envelope fa-3x"></a>
+        </span>
       </Jumbotron>
     );
   }
 }
-
-export default MyProfileBanner;

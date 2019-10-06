@@ -15,6 +15,7 @@ class MyNavBar extends React.Component {
             <Nav.Link as={Link} to="/about-me">About me</Nav.Link>
             <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
             <Nav.Link as={Link} to="/cs-club">CS Club</Nav.Link>
+            <Nav.Link as={Link} to="/tools">Tools</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

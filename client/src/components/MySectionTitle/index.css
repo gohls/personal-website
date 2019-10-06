@@ -1,14 +1,15 @@
 .title {
   text-align: left;
-  margin-left: 1.7%;
-  font-size: 40px;
-  font-size: 2.5rem;
+  /* margin-left: 1.7%; */
+  font-size: 45px;
+  font-size: 3.5rem;
+  color: black;
+  font-family: "Zilla Slab",Inter,X-LocaleSpecific,sans-serif;
 }
 
-.center-body {
+/* .center-body {
   margin: 1% 1% 0% 1%;
-  /* box-sizing: border-box; */
-}
+} */
 
 @media(max-width:767px) {
   .title {

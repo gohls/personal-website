@@ -1,11 +1,14 @@
 .card {
-  display: inline-block; /* Creates row of cards, rather than single column */
-  margin: 1%; /* For spacing cards apart */
+    display: inline-block; /* Creates row of cards, rather than single column */
+    margin-right: 15px;
+    margin-bottom: 15px;
 }
 
 .card-body {
-  text-align: left; /* To exit card-center */
+    text-align: left; /* To exit card-center */
 }
 
-
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
 
