@@ -1,6 +1,6 @@
 .countdown-banner {
   margin: 0px 35px 35px 35px;
-  padding: 0.25rem;
+  padding: 0.75rem;
 }
 
 li {
@@ -14,7 +14,7 @@ li {
   margin: 0.5%;
 }
 
-.col {
+.col.time {
   margin: auto;
 }
 

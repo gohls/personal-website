@@ -18,19 +18,19 @@ const experience = [{
   link: "/revionics",
   image: "/images/revionics1.png",
   title: "Revionics SWE Intern",
-  text: "Summer 2019 I got the exciting and unique opportunity to internship as Software Engineer at EA.",
+  text: "Spring '20 - planned internship. I'm looking forward to this experience and learning more on AI.",
 },
 {
   link: "/ea-intern",
   image: "/images/ea.png",
   title: "EA SWE Intern",
-  text: "I'm taking over as Computer Science Club President at St. Edward's. Look out for fun events and projects!",
+  text: "Summer '19 I got the exciting and unique opportunity to internship as Software Engineer (SWE) at EA.",
 },
 {
   link: "/cert",
   image: "/images/oit_goat1.jpg",
-  title: "OIT Student Worker",
-  text: "This course and certification was a great introduction to cyber security, which is a big personal interest.",
+  title: "OIT Digital Associate",
+  text: "Working at St. Eds Office of Technology (OIT) as Digital Associate has given me an all-around IT knowledgebase.",
 },
   // {
   //   image: "/images/space.jpeg",

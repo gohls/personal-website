@@ -33,8 +33,8 @@ export default class MyProfileBanner extends React.Component {
           </div>
         <br />
         <span>
-          <a class="fab fa-bitbucket fa-3x"></a>
           <a class="fab fa-linkedin fa-3x"> </a>
+          <a class="fab fa-bitbucket fa-3x"></a>
           <a class="fab fa-hackerrank fa-3x"></a>
           <a class="fas fa-envelope fa-3x"></a>
         </span>

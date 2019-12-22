@@ -52,7 +52,7 @@ class MyCountdown extends React.Component {
             <Container>
               <Row>
                 <Col> <div className="grad-center"> May 9, 2020 </div></Col>
-                <Col>
+                <Col className="time">
                   <ul>
                     <li><span className="timetest">{this.state.days}</span>Days</li>
                     <li><span className="timetest">{this.state.hours}</span>Hours</li>
