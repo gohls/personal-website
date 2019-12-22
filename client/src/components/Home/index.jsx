@@ -4,6 +4,7 @@ import MyProfileBanner from "../MyProfileBanner";
 import MyCountdown from "../MyCountdown";
 import MyTrademark from "../MyTrademark";
 import MySectionTitle from "../MySectionTitle";
+import MyEducation from "../Education"
 import "./index.css";
 
 const sectionHeaders = {
@@ -12,23 +13,23 @@ const sectionHeaders = {
 }
 // const me = "/images/me.jpg";
 
-// Cards array
-const cards = [{
-  link: "/ea-intern",
-  image: "/images/ea_image.jpg",
-  title: "EA SWE Internship",
+// experience array
+const experience = [{
+  link: "/revionics",
+  image: "/images/revionics1.png",
+  title: "Revionics SWE Intern",
   text: "Summer 2019 I got the exciting and unique opportunity to internship as Software Engineer at EA.",
 },
 {
-  link: "/csc",
-  image: "/images/space.jpeg",
-  title: "Computer Science Club",
+  link: "/ea-intern",
+  image: "/images/ea.png",
+  title: "EA SWE Intern",
   text: "I'm taking over as Computer Science Club President at St. Edward's. Look out for fun events and projects!",
 },
 {
   link: "/cert",
-  image: "/images/space.jpeg",
-  title: "Junior Pen Tester Cert",
+  image: "/images/oit_goat1.jpg",
+  title: "OIT Student Worker",
   text: "This course and certification was a great introduction to cyber security, which is a big personal interest.",
 },
   // {
@@ -38,6 +39,27 @@ const cards = [{
   // }
 ];
 
+// projects array
+const projects = [{
+  link: "/ea-intern",
+  image: "/images/v_clock.jpg",
+  title: "Vicinity Alarm Clock",
+  text: "Summer 2019 I got the exciting and unique opportunity to internship as Software Engineer at EA.",
+},
+{
+  link: "/csc",
+  image: "/images/goatBot.jpg",
+  title: "Slack goatBot",
+  text: '"goatbot" is a Slackbot I made for the Computer Science Club Slack workspace. Get a straight yes or no via gif.',
+},
+{
+  link: "/cert",
+  image: "/images/steds_ctf.png",
+  title: "stEds CTF 2017",
+  text: "This course and certification was a great introduction to cyber security, which is a big personal interest.",
+}
+];
+
 
 export default class Home extends React.Component {
   render() {
@@ -45,8 +67,31 @@ export default class Home extends React.Component {
       <div>
         <MyProfileBanner
         />
-        <div className="center-cards">
-          {cards.map(card =>
+        <MySectionTitle
+          subDir={"/experience"}
+          curDir={"/highlights"}
+        />
+        <div className="cards">
+          {experience.map(card =>
+            <MyCard
+              link={card.link}
+              image={card.image}
+              cardTitle={card.title}
+              cardText={card.text}
+            />
+          )}
+
+        </div>
+        <MySectionTitle
+          curDir={"/graduation"}
+        />
+        <MyCountdown />
+        <MySectionTitle
+          subDir={"/projects"}
+          curDir={"/highlights"}
+        />
+        <div className="cards">
+          {projects.map(card =>
             <MyCard
               link={card.link}
               image={card.image}
@@ -55,12 +100,17 @@ export default class Home extends React.Component {
             />
           )}
         </div>
-        <MyCountdown />
         <MySectionTitle
-          title={sectionHeaders.profile}
+          subDir={"/education"}
+          curDir={"/overview"}
+        />
+        <MyEducation />
+        <MySectionTitle
+          // subDir={""}
+          curDir={"/about_me"}
         />
         <MyTrademark trademark="Simon Alexander Gohl .:. Fall 2019" />
-      </div>
+      </div >
     );
   }
 }

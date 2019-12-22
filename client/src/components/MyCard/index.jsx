@@ -1,7 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
-import "./index.css";
+import style from "./index.css"; //style overright for cards
 import { Link } from 'react-router-dom';
 
 
@@ -11,8 +10,9 @@ export default class MyCard extends React.Component {
   };
 
   render() {
-    const cardStyle = { 
-      width: 'calc(33.3% - (25px - (25px / 3)))',
+    const cardStyle = {
+      // width: 'calc(33.3% - (25px - (25px / 3)))',
+      // display: 'grid',
     };
 
     const { image } = this.props;

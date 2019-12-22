@@ -5,7 +5,7 @@ import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 import "./index.css";
 
-class MyCountdown extends React.Component {
+class MyEducation extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -46,19 +46,20 @@ class MyCountdown extends React.Component {
 
   render() {
     return (
-      <Jumbotron className="countdown-banner">
+      <Jumbotron className="education-jumbo">
         <div>
           {this.state.message ? this.state.message :
             <Container>
               <Row>
-                <Col> <div className="grad-center"> May 9, 2020 </div></Col>
                 <Col>
-                  <ul>
-                    <li><span className="timetest">{this.state.days}</span>Days</li>
-                    <li><span className="timetest">{this.state.hours}</span>Hours</li>
-                    <li><span className="timetest">{this.state.minutes}</span>Minutes</li>
-                    <li><span className="timetest">{this.state.seconds}</span>Seconds</li>
-                  </ul>
+                  <h3>School:</h3>
+
+
+                </Col>
+                <Col>
+                  <h3>Courses:</h3><br />
+
+                  <h3>Certificates:</h3>
 
                 </Col>
               </Row>
@@ -70,4 +71,4 @@ class MyCountdown extends React.Component {
   }
 }
 
-export default MyCountdown;
+export default MyEducation;

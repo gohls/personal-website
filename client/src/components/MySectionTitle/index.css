@@ -1,18 +1,24 @@
 .title {
   text-align: left;
-  /* margin-left: 1.7%; */
-  font-size: 45px;
-  font-size: 3.5rem;
+  margin-left: 4%;
+  font-size: 2.5rem;
   color: black;
-  font-family: "Zilla Slab",Inter,X-LocaleSpecific,sans-serif;
+  font-family: monospace;
 }
 
 /* .center-body {
   margin: 1% 1% 0% 1%;
 } */
 
-@media(max-width:767px) {
+@media (max-width: 767px) {
   .title {
     text-align: center;
+    font-size: 2rem;
   }
+}
+
+a.dirHeaders:hover {
+  background-color: #212121;
+  color: white;
+  text-decoration: underline;
 }

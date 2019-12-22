@@ -1,6 +1,7 @@
-.countdown-banner {
+.education-jumbo {
   margin: 0px 35px 35px 35px;
   padding: 0.25rem;
+  color: white;
 }
 
 li {
@@ -16,16 +17,6 @@ li {
 
 .col {
   margin: auto;
-}
-
-ul {
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-.timetest {
-  display: block;
-  font-size: 3rem;
 }
 
 .grad-center {

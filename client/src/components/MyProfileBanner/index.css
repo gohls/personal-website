@@ -1,5 +1,5 @@
 .banner {
-  background-image: url('/images/austin-bridge.jpeg');
+  background-image: url("/images/austin.jpeg");
   /* Source: https://coolbackgrounds.io/ */
   /* background: linear-gradient(45deg, #080808 0%, #5489af 100%); */
   background-size: cover;
@@ -19,9 +19,13 @@
 }
 
 .fab {
-  margin-right: .5%;
+  margin-right: 0.5%;
 }
 
 .jumbotron {
-  padding: 5rem 2rem;
+  padding: 5rem 2rem 7rem 2rem;
+}
+
+.fas {
+  margin-right: 0.5%;
 }
