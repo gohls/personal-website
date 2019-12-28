@@ -1,21 +1,23 @@
 import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import Link from "react-router-dom/Link";
 import "./index.css";
 
 class MyNavBar extends React.Component {
   render() {
     return (
-      <Navbar bg="light" expand="lg">
+
+      <Navbar fixed="top" bg="light" expand="lg">
         <Navbar.Brand as={Link} to="/">Simon Alexander Gohl</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link as={Link} to="/about-me">About me</Nav.Link>
-            <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
-            <Nav.Link as={Link} to="/cs-club">CS Club</Nav.Link>
-            <Nav.Link as={Link} to="/tools">Tools</Nav.Link>
+            <Nav.Link as={Link} to="/about-me">about_me</Nav.Link>
+            <Nav.Link as={Link} to="/experience">experience</Nav.Link>
+            <Nav.Link as={Link} to="/projects">projects</Nav.Link>
+            <Nav.Link as={Link} to="/education">education</Nav.Link>
+            <Nav.Link as={Link} to="/education">tools</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

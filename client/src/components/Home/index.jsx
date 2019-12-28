@@ -1,83 +1,45 @@
 import React from 'react';
-import MyCard from "../MyCard";
-import MyProfileBanner from "../MyProfileBanner";
-import MyCountdown from "../MyCountdown";
-import MyTrademark from "../MyTrademark";
-import MySectionTitle from "../MySectionTitle";
+import MyCard from "../Card";
+import MyProfileBanner from "../ProfileBanner";
+import MyCountdown from "../Countdown";
+import MyTrademark from "../Trademark";
+import MySectionTitle from "../SectionTitle";
 import MyEducation from "../Education"
+import experienceData from "../Experience/experienceData"
+import projectData from "../Projects/projectData"
 import "./index.css";
+import MyAboutMe from '../AboutMe';
 
-const sectionHeaders = {
-  projects: "/highlights",
-  profile: "Overview:",
-}
-// const me = "/images/me.jpg";
 
-// experience array
-const experience = [{
-  link: "/revionics",
-  image: "/images/revionics1.png",
-  title: "Revionics SWE Intern",
-  text: "Spring '20 - planned internship. I'm looking forward to this experience and learning more on AI.",
-},
-{
-  link: "/ea-intern",
-  image: "/images/ea.png",
-  title: "EA SWE Intern",
-  text: "Summer '19 I got the exciting and unique opportunity to internship as Software Engineer (SWE) at EA.",
-},
-{
-  link: "/cert",
-  image: "/images/oit_goat1.jpg",
-  title: "OIT Digital Associate",
-  text: "Working at St. Eds Office of Technology (OIT) as Digital Associate has given me an all-around IT knowledgebase.",
-},
-  // {
-  //   image: "/images/space.jpeg",
-  //   title: "HackTX Capture the Flag",
-  //   text: "My team and I placed 7th out of 100+ teams contesting in the offical HackTX '18 Capture the Flag.",
-  // }
-];
-
-// projects array
-const projects = [{
-  link: "/ea-intern",
-  image: "/images/v_clock.jpg",
-  title: "Vicinity Alarm Clock",
-  text: "Summer 2019 I got the exciting and unique opportunity to internship as Software Engineer at EA.",
-},
-{
-  link: "/csc",
-  image: "/images/goatBot.jpg",
-  title: "Slack goatBot",
-  text: '"goatbot" is a Slackbot I made for the Computer Science Club Slack workspace. Get a straight yes or no via gif.',
-},
-{
-  link: "/cert",
-  image: "/images/steds_ctf.png",
-  title: "stEds CTF 2017",
-  text: "This course and certification was a great introduction to cyber security, which is a big personal interest.",
-}
-];
 
 
 export default class Home extends React.Component {
   render() {
+
+    const experienceHighlights = experienceData.filter(exp => exp.highlight === true);
+    const projectsHighlights = projectData.filter(project => project.highlight === true);
+
     return (
       <div>
         <MyProfileBanner
         />
         <MySectionTitle
+          subDir={"/about_me"}
+          curDir={" | less"}
+        />
+        <MyAboutMe />
+        <MySectionTitle
           subDir={"/experience"}
           curDir={"/highlights"}
         />
         <div className="cards">
-          {experience.map(card =>
+          {experienceHighlights.map(expHighlight =>
             <MyCard
-              link={card.link}
-              image={card.image}
-              cardTitle={card.title}
-              cardText={card.text}
+              link={expHighlight.link}
+              image={expHighlight.image}
+              title={expHighlight.title}
+              text={expHighlight.text}
+              tags={expHighlight.tags}
             />
           )}
 
@@ -91,12 +53,13 @@ export default class Home extends React.Component {
           curDir={"/highlights"}
         />
         <div className="cards">
-          {projects.map(card =>
+          {projectsHighlights.map(projectsHighlight =>
             <MyCard
-              link={card.link}
-              image={card.image}
-              cardTitle={card.title}
-              cardText={card.text}
+              link={projectsHighlight.link}
+              image={projectsHighlight.image}
+              title={projectsHighlight.title}
+              text={projectsHighlight.text}
+              tags={projectsHighlight.tags}
             />
           )}
         </div>
@@ -105,10 +68,7 @@ export default class Home extends React.Component {
           curDir={"/overview"}
         />
         <MyEducation />
-        <MySectionTitle
-          // subDir={""}
-          curDir={"/about_me"}
-        />
+
         <MyTrademark trademark="Simon Alexander Gohl .:. Fall 2019" />
       </div >
     );

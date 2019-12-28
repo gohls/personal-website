@@ -1,0 +1,12 @@
+img.profile-img {
+  border-radius: 50%;
+}
+
+.img-col {
+  margin: auto;
+}
+
+hr {
+  color: white;
+  border-top-color: white;
+}

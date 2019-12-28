@@ -9,8 +9,8 @@
 }
 
 .welome-msg-header {
-  font-size: 56px;
-  font-size: 3.5rem;
+  font-size: 60px;
+  font-weight: 700;
 }
 
 .welome-msg-sub {
@@ -18,14 +18,38 @@
   font-size: 1.5rem;
 }
 
-.fab {
-  margin-right: 0.5%;
-}
-
 .jumbotron {
   padding: 5rem 2rem 7rem 2rem;
 }
 
+.fab {
+  margin-right: 0.5%;
+}
+
 .fas {
   margin-right: 0.5%;
+}
+
+a.fab {
+  color: white;
+}
+
+a.fas {
+  color: white;
+}
+
+a.fab.fa-bitbucket:hover {
+  color: rgb(7, 71, 166);
+}
+
+a.fab.fa-linkedin:hover {
+  color: #0077b5;
+}
+
+a.fab.fa-hackerrank:hover {
+  color: #1ba94c;
+}
+
+a.fas.fa-envelope:hover {
+  color: rgb(224, 76, 64);
 }
