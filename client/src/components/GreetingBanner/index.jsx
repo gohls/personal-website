@@ -36,12 +36,12 @@ export default class MyProfileBanner extends React.Component {
           "If you give someone a program, you will frustrate them for a day; <br />
           if you teach them how to program, you will frustrate them for a lifetime."
           </h3> */}
-        <span>
-          <a href="https://www.linkedin.com/in/sagohl/" target="_blank" className="fab fa-linkedin fa-3x" />
-          <a href="https://bitbucket.org/sgohl/" target="_blank" className="fab fa-bitbucket fa-3x" />
-          <a href="https://www.hackerrank.com/sgohl" target="_blank" className="fab fa-hackerrank fa-3x" />
-          <a href="mailto:sgohl@stedwards.edu" target="_blank" className="fas fa-envelope fa-3x" />
-        </span>
+        <h2>
+          <span className="quote">“If you give someone a program, you will frustrate them for a day;</span><br />
+          <span className="quote">if you teach them how to program, you will frustrate them for a lifetime.”</span><br />
+          {/* <span className="quote"></span><br /> */}
+          <span className="quote">― ROEDY GREEN, <i classname="author-title">Programmer</i></span><br />
+        </h2>
       </Jumbotron>
     );
   }

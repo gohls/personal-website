@@ -1,3 +1,42 @@
 .navbar-brand {
-    margin-left: 10%; /* Text spaced out from left border */
+  margin-left: 10%; /* Text spaced out from left border */
+}
+
+.fab {
+  margin-right: 0.5%;
+}
+
+.fas {
+  margin-right: 0.5%;
+}
+
+a.fab {
+  color: #212121;
+}
+
+a.fas {
+  color: #212121;
+}
+
+a.fab.fa-bitbucket:hover {
+  color: rgb(7, 71, 166);
+}
+
+a.fab.fa-linkedin:hover {
+  color: #0077b5;
+}
+
+a.fab.fa-hackerrank:hover {
+  color: #1ba94c;
+}
+
+a.fas.fa-envelope:hover {
+  color: rgb(224, 76, 64);
+}
+
+span.quote {
+  background-color: white;
+  line-height: 4rem;
+  padding: 10px;
+  font-weight: 300;
 }

@@ -1,9 +1,9 @@
 import React from 'react';
 import MyCard from "../Card";
-import MyProfileBanner from "../ProfileBanner";
+import GreetingBanner from "../GreetingBanner";
 import MyCountdown from "../Countdown";
 import MyTrademark from "../Trademark";
-import MySectionTitle from "../SectionTitle";
+import SectionTitle from "../SectionTitle";
 import MyEducation from "../Education"
 import experienceData from "../Experience/experienceData"
 import projectData from "../Projects/projectData"
@@ -11,59 +11,56 @@ import "./index.css";
 import MyAboutMe from '../AboutMe';
 
 
-
-
 export default class Home extends React.Component {
   render() {
 
     const experienceHighlights = experienceData.filter(exp => exp.highlight === true);
-    const projectsHighlights = projectData.filter(project => project.highlight === true);
+    const highlights = projectData.filter(project => project.highlight === true);
 
     return (
       <div>
-        <MyProfileBanner
+        <GreetingBanner
         />
-        <MySectionTitle
+        <SectionTitle
           subDir={"/about_me"}
           curDir={" | less"}
         />
         <MyAboutMe />
-        <MySectionTitle
+        <SectionTitle
           subDir={"/experience"}
           curDir={"/highlights"}
         />
         <div className="cards">
-          {experienceHighlights.map(expHighlight =>
+          {experienceHighlights.map(highlight =>
             <MyCard
-              link={expHighlight.link}
-              image={expHighlight.image}
-              title={expHighlight.title}
-              text={expHighlight.text}
-              tags={expHighlight.tags}
+              image={highlight.image}
+              title={highlight.title}
+              intro={highlight.intro}
+              tags={highlight.tags}
             />
           )}
 
         </div>
-        <MySectionTitle
+        <SectionTitle
           curDir={"/graduation"}
         />
         <MyCountdown />
-        <MySectionTitle
+        <SectionTitle
           subDir={"/projects"}
           curDir={"/highlights"}
         />
         <div className="cards">
-          {projectsHighlights.map(projectsHighlight =>
+          {highlights.map(highlight =>
             <MyCard
-              link={projectsHighlight.link}
-              image={projectsHighlight.image}
-              title={projectsHighlight.title}
-              text={projectsHighlight.text}
-              tags={projectsHighlight.tags}
+              link={highlight.link}
+              image={highlight.image}
+              title={highlight.title}
+              intro={highlight.intro}
+              tags={highlight.tags}
             />
           )}
         </div>
-        <MySectionTitle
+        <SectionTitle
           subDir={"/education"}
           curDir={"/overview"}
         />

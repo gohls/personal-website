@@ -3,8 +3,7 @@
   margin-left: 4%;
   font-size: 35px;
   font-weight: bold;
-  color: rgb(40, 44, 52);
-  font-family: monospace;
+  color: black;
 }
 
 /* .center-body {
@@ -18,7 +17,11 @@
   }
 }
 
-a.dirHeaders:hover {
+/* a.subDir {
+  background-color: rgba(21, 21, 21, 0.1);
+} */
+
+a.subDir:hover {
   background-color: #212121;
   color: white;
   text-decoration: underline;

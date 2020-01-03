@@ -9,10 +9,9 @@ class MyExperience extends React.Component {
       <div className="cards">
         {experienceData.map(experience =>
           <MyCard
-            link={experience.link}
             image={experience.image}
             title={experience.title}
-            text={experience.text}
+            intro={experience.intro}
             tags={experience.tags}
           />
         )}

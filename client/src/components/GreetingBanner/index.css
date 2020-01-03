@@ -30,13 +30,13 @@
   margin-right: 0.5%;
 }
 
-a.fab {
+/* a.fab {
   color: white;
 }
 
 a.fas {
   color: white;
-}
+} */
 
 a.fab.fa-bitbucket:hover {
   color: rgb(7, 71, 166);
@@ -52,4 +52,16 @@ a.fab.fa-hackerrank:hover {
 
 a.fas.fa-envelope:hover {
   color: rgb(224, 76, 64);
+}
+
+span.quote {
+  background-color: white;
+  color: black;
+  line-height: 4rem;
+  padding: 10px;
+  font-weight: 300;
+}
+
+i.author-title {
+  font-family: "Times New Roman", Times, serif;
 }
