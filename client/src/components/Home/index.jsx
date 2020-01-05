@@ -36,6 +36,7 @@ export default class Home extends React.Component {
               image={highlight.image}
               title={highlight.title}
               intro={highlight.intro}
+              description={highlight.description}
               tags={highlight.tags}
             />
           )}
@@ -52,10 +53,10 @@ export default class Home extends React.Component {
         <div className="cards">
           {highlights.map(highlight =>
             <MyCard
-              link={highlight.link}
               image={highlight.image}
               title={highlight.title}
               intro={highlight.intro}
+              description={highlight.description}
               tags={highlight.tags}
             />
           )}
@@ -66,7 +67,7 @@ export default class Home extends React.Component {
         />
         <MyEducation />
 
-        <MyTrademark trademark="Simon Alexander Gohl .:. Fall 2019" />
+        <MyTrademark trademark="Simon Alexander Gohl .:. Spring 2020" />
       </div >
     );
   }

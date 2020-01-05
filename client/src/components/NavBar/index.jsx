@@ -17,7 +17,7 @@ class MyNavBar extends React.Component {
             <Nav.Link as={Link} to="/experience">~/experience</Nav.Link>
             <Nav.Link as={Link} to="/projects">~/projects</Nav.Link>
             <Nav.Link as={Link} to="/education">~/education</Nav.Link>
-            <Nav.Link as={Link} to="/lab">~/code-</Nav.Link>
+            <Nav.Link as={Link} to="/🥼">~/lab</Nav.Link>
           </Nav>
         </Navbar.Collapse>
         <Navbar.Collapse className="justify-content-end">
@@ -26,7 +26,7 @@ class MyNavBar extends React.Component {
           <a href="https://www.hackerrank.com/sgohl" target="_blank" className="fab fa-hackerrank fa-2x" />
           <a href="mailto:sgohl@stedwards.edu" target="_blank" className="fas fa-envelope fa-2x" />
         </Navbar.Collapse>
-      </Navbar>
+      </Navbar >
     );
   }
 }

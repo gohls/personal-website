@@ -1,6 +1,5 @@
 import React from "react";
 import Modal from "react-bootstrap/Modal"
-import { experienceModalData } from "../Experience/experienceData"
 
 export default function MyModal(props) {
   const show = props.show;
@@ -23,12 +22,17 @@ export default function MyModal(props) {
           <p>
             {props.intro}
           </p>
+
           <h4>Description</h4>
           <p>
             {props.description}
           </p>
+
           <h4>Tech Stack</h4>
-          <p>{props.tags.map(tag => <small>#{tag} </small>)} </p>
+          <p>
+            {props.tags.map(tag => <small>#{tag} </small>)}
+          </p>
+
         </Modal.Body>
       </Modal>
     </>

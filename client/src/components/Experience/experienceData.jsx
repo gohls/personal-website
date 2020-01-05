@@ -12,6 +12,7 @@ export const experienceData =
     title: "EA SWE Intern",
     intro: "Summer '19 I got the exciting and unique opportunity to internship as Software Engineer (SWE) at EA.",
     description: "",
+
     tags: ["React", "JavaScript", "Python", "Flask", "R"],
     highlight: true,
   },

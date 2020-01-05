@@ -6,8 +6,8 @@ export const projectData = [
   {
     image: "/images/v_clock.jpg",
     title: "Vicinity Alarm Clock",
-    intro: "The Vicinity Alarm Clock is a home alarm clock that only sounds when I'm at home (or technically my phone).",
-    description: "This project is still in 1st phase of research and design. Check back soon!",
+    intro: "The Vicinity Alarm Clock is a home alarm clock that only sounds when you're at home (or technically your phone).",
+    description: "This project is still in early phase of research and design. Check back soon!",
     tags: ["IoT", "RasberryPie", "Bluetooth", "Python"],
     highlight: true,
   },
@@ -55,12 +55,15 @@ export const projectData = [
     tags: ["React", "Cloud", "Docker", "CI/CD"],
     highlight: false,
   },
+  //****************************
+  //      HackTX 2018
+  //****************************
   {
     image: "/images/HackTX_poster.jpg",
     title: "HackTX Capture the Flag",
     intro: "My team and I placed 7th out of 100+ teams contesting in the offical HackTX '18 Capture the Flag.",
     description: "",
-    tags: ["AmazonEcho"],
+    tags: ["7th Place", "RSA", "Reverse-Engineering", "Teamwork", "Cipher"],
     highlight: false,
   }
 ];

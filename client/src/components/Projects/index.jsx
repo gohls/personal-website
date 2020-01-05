@@ -9,10 +9,10 @@ class MyProjects extends React.Component {
       <div className="cards">
         {projectData.map(project =>
           <MyCard
-            // link={project.link}
             image={project.image}
             title={project.title}
             intro={project.intro}
+            description={project.description}
             tags={project.tags}
           />
         )}
