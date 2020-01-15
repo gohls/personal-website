@@ -1,12 +1,13 @@
 version: "3.7"
 
 services:
-  app-prod:
-    container_name: app-prod
+  web:
+    container_name: my_website
     build:
       context: .
       dockerfile: Dockerfile
     ports:
-      - 8080:8080
+      - 80:80
+      - 443:443
     volumes:
-      - .:/app
+      - .:/usr/src/app
