@@ -14,6 +14,7 @@ class MyProjects extends React.Component {
             intro={project.intro}
             description={project.description}
             tags={project.tags}
+            _dir={project._dir}
           />
         )}
       </div>

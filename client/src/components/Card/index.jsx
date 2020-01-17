@@ -30,6 +30,9 @@ export default class MyCard extends React.Component {
               <Card.Text>
                 {this.props.tags.map(tag => <small className="text-muted">#{tag} </small>)}
               </Card.Text>
+              <Card.Text>
+                {this.props._dir}
+              </Card.Text>
             </Card.Body>
           </Card>
         </Link>

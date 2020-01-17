@@ -1,4 +1,6 @@
-//TODO: Create DB to store data (e.g. MongoDB)
+const VAClock = 'projects/vicinityAlarmClock'
+
+// TODO: Fetch README doc from project repos for full description
 export const projectData = [
   //****************************
   //      VICINITY ALARM CLOCK 
@@ -10,6 +12,7 @@ export const projectData = [
     description: "This project is still in early phase of research and design. Check back soon!",
     tags: ["IoT", "RasberryPie", "Bluetooth", "Python"],
     highlight: true,
+    _dir: VAClock,
   },
   //****************************
   //      SLACK goatBot  
@@ -21,6 +24,7 @@ export const projectData = [
     description: "",
     tags: ["Express", "Node", "API", "Crypto"],
     highlight: true,
+    _dir: VAClock,
   },
   //****************************
   //      stEds CTF  
@@ -32,6 +36,7 @@ export const projectData = [
     description: "",
     tags: ["Security"],
     highlight: false,
+    _dir: VAClock,
   },
   //****************************
   //      DATA JOURNAL 
@@ -43,6 +48,7 @@ export const projectData = [
     description: "",
     tags: ["React", "Express", "Cloud", "Docker", "Stats", "Data-Viz"],
     highlight: true,
+    _dir: VAClock,
   },
   //****************************
   //      PERONSAL WEBSITE 
@@ -54,6 +60,7 @@ export const projectData = [
     description: "",
     tags: ["React", "Cloud", "Docker", "CI/CD"],
     highlight: false,
+    _dir: VAClock,
   },
   //****************************
   //      HackTX 2018
@@ -65,6 +72,7 @@ export const projectData = [
     description: "",
     tags: ["7th Place", "RSA", "Reverse-Engineering", "Teamwork", "Cipher"],
     highlight: false,
+    _dir: VAClock,
   }
 ];
 
