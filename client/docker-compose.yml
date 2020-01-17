@@ -18,7 +18,7 @@
 version: "3"
 
 services:
-  website:
+  nodejs:
     build:
       context: .
       dockerfile: Dockerfile
