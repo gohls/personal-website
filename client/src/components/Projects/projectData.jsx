@@ -1,7 +1,7 @@
-const VAClock = 'projects/vicinityAlarmClock'
+import VAClock from './projectDetails/hackTX.md'
 
 // TODO: Fetch README doc from project repos for full description
-export const projectData = [
+const projectData = [
   //****************************
   //      VICINITY ALARM CLOCK 
   //****************************
@@ -43,7 +43,7 @@ export const projectData = [
   //**************************** 
   {
     image: "/images/data-viz.jpeg",
-    title: "Data-Journal",
+    title: "Data-Journaling",
     intro: "This web app aims at deeper self-awareness, via data collection, statistical caluculations, and data-viz graphs.",
     description: "",
     tags: ["React", "Express", "Cloud", "Docker", "Stats", "Data-Viz"],

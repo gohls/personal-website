@@ -38,7 +38,7 @@ export default class Home extends React.Component {
               intro={highlight.intro}
               description={highlight.description}
               tags={highlight.tags}
-              info={highlight.info}
+              _dir={highlight._dir}
             />
           )}
 
@@ -59,6 +59,7 @@ export default class Home extends React.Component {
               intro={highlight.intro}
               description={highlight.description}
               tags={highlight.tags}
+              _dir={highlight._dir}
             />
           )}
         </div>

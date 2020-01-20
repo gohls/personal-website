@@ -1,70 +1,69 @@
-# version: "3.7"
-
-# services:
-#   web:
-#     container_name: my_website
-#     build:
-#       context: .
-#       dockerfile: Dockerfile
-#     restart: unless-stopped
-#     ports:
-#       - 80:80
-#       - 443:443
-#     volumes:
-#       - .:/usr/src/app
-#######
-#######
-### Work on SSL cert
-version: "3"
+version: "3.7"
 
 services:
-  nodejs:
+  web:
+    container_name: my_website
     build:
       context: .
       dockerfile: Dockerfile
-    image: nodejs
-    container_name: nodejs
-    restart: unless-stopped
-    networks:
-      - app-network
-
-  webserver:
-    image: nginx:mainline-alpine
-    container_name: webserver
     restart: unless-stopped
     ports:
-      - "80:80"
+      - 80:80
+      - 443:443
     volumes:
-      - web-root:/var/www/html
-      - ./nginx-conf:/etc/nginx/conf.d
-      - certbot-etc:/etc/letsencrypt
-      - certbot-var:/var/lib/letsencrypt
-    depends_on:
-      - nodejs
-    networks:
-      - app-network
+      - .:/usr/src/app
+##########################
+##### SSL TESTING 2/3 ####
+# version: "3"
 
-  certbot:
-    image: certbot/certbot
-    container_name: certbot
-    volumes:
-      - certbot-etc:/etc/letsencrypt
-      - certbot-var:/var/lib/letsencrypt
-      - web-root:/var/www/html
-    depends_on:
-      - webserver
-    command: certonly --webroot --webroot-path=/var/www/html --email sagohl@gmail.com --agree-tos --no-eff-email --staging -d simongohl.me  -d www.simongohl.me
+# services:
+#   nodejs:
+#     build:
+#       context: .
+#       dockerfile: Dockerfile
+#     image: nodejs
+#     container_name: nodejs
+#     restart: unless-stopped
+#     networks:
+#       - app-network
 
-volumes:
-  certbot-etc:
-  certbot-var:
-  web-root:
-    driver: local
-    driver_opts:
-      type: none
-      device: /home/simon/my-react-website/views/
-      o: bind
+#   webserver:
+#     image: nginx:mainline-alpine
+#     container_name: webserver
+#     restart: unless-stopped
+#     ports:
+#       - "80:80"
+#     volumes:
+#       - web-root:/var/www/html
+#       - ./nginx-conf:/etc/nginx/conf.d
+#       - certbot-etc:/etc/letsencrypt
+#       - certbot-var:/var/lib/letsencrypt
+#     depends_on:
+#       - nodejs
+#     networks:
+#       - app-network
 
-networks:
-  app-network:
-    driver: bridge
+#   certbot:
+#     image: certbot/certbot
+#     container_name: certbot
+#     volumes:
+#       - certbot-etc:/etc/letsencrypt
+#       - certbot-var:/var/lib/letsencrypt
+#       - web-root:/var/www/html
+#     depends_on:
+#       - webserver
+#     command: certonly --webroot --webroot-path=/var/www/html --email sagohl@gmail.com --agree-tos --no-eff-email --staging -d simongohl.me  -d www.simongohl.me
+
+# volumes:
+#   certbot-etc:
+#   certbot-var:
+#   web-root:
+#     driver: local
+#     driver_opts:
+#       type: none
+#       device: /home/simon/my-react-website/views/
+#       o: bind
+
+# networks:
+#   app-network:
+#     driver: bridge
