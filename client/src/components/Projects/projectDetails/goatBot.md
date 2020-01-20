@@ -1,18 +1,50 @@
-THIS PROJECT IS STILL IN THE EARLY RESEARCH & DESIGN STAGES
+## Intro
 
-## Outline
+"goatbot" is a Slackbot I made for the Computer Science Club Slack workspace. Get a straight yes or no via gif.
 
-The Vicinity Alarm Clock (\/\\C) is a home alarm clock that only sounds when you're at home (or technically your phone).
+## A simple Slack slash command
 
-## Description
+_goatbot_ is a Slackbot I made for the Computer Science Club Slack workspace. It takes the slash command "/yesorno [ask a yes or no question]" and will randomly respond with a gif post to the channel with yes or no context.
 
-\/\\C is something a bit unique in that I tend to stay a lot of other places and so I forget to turn off and on my home alarm clock. Needless to say, my neighbors are not happy with me, when I forget to turn it off. And I'm not happy, when I forget to turn it on. So, this would be a problem solved techology for me!
+goatbot name derives from my school, St. Edward's University, goat mascot.
 
-Furthermore, it will be a nice project for me to start home automations as well as get familiar with some new technologies such as bluetooth and maybe some display board stuff.
+Technologies in this project include: Node.js, Express.js, Axios, and dotenv config. A GET request to a RESTful API endpoint (https://yesno.wtf/api) is made to retrieve the gif.
 
-## Tech Stack
+## Slack setup
 
-- Rasberry Pi (IoT device)
-- Bluetooth (range network signal)
-- Python (Language)
-- Ubuntu (OS)
+**I.** Follow https://api.slack.com/slash-commands for general `Slack app` + `slash commands` setup  
+**II.** Edit `Slash Commands`
+
+The following configuration were used:
+
+• **Command:** `/yesorno`  
+• **Request URL:** your URL + `/command`  
+• **Short Description:** `Get a straight yes or no answer`  
+• **Usage Hint:** `[ask a yes or no question]`  
+• **Escape channels, users, and links sent to your app:** `[x]`
+
+## Local setup
+
+**I.** `git clone https://sgohl@bitbucket.org/sgohl/goatbot.git` to clone repo  
+**II.** `npm install` to install dependencies  
+**III.** Create `.env` file and configure with your Slack credentials
+
+• **SLACK_CLIENT_ID=** xxxx-yyyy  
+• **SLACK_CLIENT_SECRET=** y0urcl13n753cr37  
+• **SLACK_SIGNING_SECRET=** y0ur516n1n653cr37
+
+##### 4. `npm start` to run the app locally
+
+## Voilà!
+
+##### Example: **/yesorno will I install this slash command?**
+
+![Alt Text](https://yesno.wtf/assets/yes/2-5df1b403f2654fa77559af1bf2332d7a.gif)
+
+## Sources
+
+https://api.slack.com/slash-commands
+
+https://github.com/girliemac/slack-httpstatuscats
+
+https://www.youtube.com/watch?v=nyyXTIL3Hkw&t=854s

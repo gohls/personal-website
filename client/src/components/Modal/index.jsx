@@ -1,6 +1,7 @@
 import React from "react";
 import Modal from "react-bootstrap/Modal"
 import Markdown from 'react-markdown'
+import './index.css'
 
 export default class MyModal extends React.Component {
   constructor(props) {
@@ -28,7 +29,7 @@ export default class MyModal extends React.Component {
           size="lg"
           show={show}
           onHide={this.props.hide}
-          dialogClassName="modal-90w"
+          // dialogClassName="modal-50w"
           aria-labelledby="example-custom-modal-styling-title"
         >
           <Modal.Header closeButton>
@@ -37,7 +38,7 @@ export default class MyModal extends React.Component {
             </Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            <h4>Intro</h4>
+            {/* <h4>Intro</h4>
             <p>
               {this.props.intro}
             </p>
@@ -50,9 +51,9 @@ export default class MyModal extends React.Component {
             <h4>Tech Stack</h4>
             <p>
               {this.props.tags.map(tag => <small>#{tag} </small>)}
-            </p>
+            </p> */}
 
-            <Markdown source={contents} />
+            <Markdown source={contents} escapeHtml={false} />
 
           </Modal.Body>
         </Modal>

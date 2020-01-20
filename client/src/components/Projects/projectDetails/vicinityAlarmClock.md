@@ -1,6 +1,6 @@
 THIS PROJECT IS STILL IN THE EARLY RESEARCH & DESIGN STAGES
 
-## Outline
+## Intro
 
 The Vicinity Alarm Clock (\/\\C) is a home alarm clock that only sounds when you're at home (or technically your phone).
 
@@ -12,7 +12,7 @@ Furthermore, it will be a nice project for me to start home automations as well 
 
 ## Tech Stack
 
-- Rasberry Pi (IoT device)
-- Bluetooth (range network signal)
-- Python (Language)
-- Ubuntu (OS)
+    • Rasberry Pi (IoT device)
+    • Bluetooth (range network signal)
+    • Python (Language)
+    • Ubuntu (OS)

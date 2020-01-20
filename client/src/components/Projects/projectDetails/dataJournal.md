@@ -1,18 +1,15 @@
-THIS PROJECT IS STILL IN THE EARLY RESEARCH & DESIGN STAGES
+## Intro
 
-## Outline
+This web app aims at deeper self-awareness, via data collection, statistical caluculations, and data-vizualization.
 
-The Vicinity Alarm Clock (\/\\C) is a home alarm clock that only sounds when you're at home (or technically your phone).
+## Abstract
 
-## Description
-
-\/\\C is something a bit unique in that I tend to stay a lot of other places and so I forget to turn off and on my home alarm clock. Needless to say, my neighbors are not happy with me, when I forget to turn it off. And I'm not happy, when I forget to turn it on. So, this would be a problem solved techology for me!
-
-Furthermore, it will be a nice project for me to start home automations as well as get familiar with some new technologies such as bluetooth and maybe some display board stuff.
+When we think of self-awareness, we tend to think of how we are doing in the present moment, or maybe about some big moments in our personal history, but there is often a more subtle side of our being, that—if we don’t give conscious attention to—can get overlooked. Over time, small habits can have a large impact. DataTrace allows users to define an area that they want to track over time—for example, exercise—and to assess progress via an intuitive 1-10 scale. Each assessment is saved (with the ability to comment), so that a user can visit them later for insights on their progress. In short, DataTrace aims to help users connect the dots of their habits and to trace a better future.
 
 ## Tech Stack
 
-- Rasberry Pi (IoT device)
-- Bluetooth (range network signal)
-- Python (Language)
-- Ubuntu (OS)
+• MERN (MongoDB, Express, React, Nginx)  
+• Docker - Containerization  
+• API
+
+## Link(s)

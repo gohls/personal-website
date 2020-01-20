@@ -1,4 +1,9 @@
-import VAClock from './projectDetails/hackTX.md'
+import VAclock from './projectDetails/vicinityAlarmClock.md'
+import dataJournal from './projectDetails/dataJournal.md'
+import goatbot from './projectDetails/goatBot.md'
+import hackTX from './projectDetails/hackTX.md'
+import website from './projectDetails/personalWebsite.md'
+import stedsCTF from './projectDetails/stedsCTF.md'
 
 // TODO: Fetch README doc from project repos for full description
 const projectData = [
@@ -12,7 +17,7 @@ const projectData = [
     description: "This project is still in early phase of research and design. Check back soon!",
     tags: ["IoT", "RasberryPie", "Bluetooth", "Python"],
     highlight: true,
-    _dir: VAClock,
+    _dir: VAclock,
   },
   //****************************
   //      SLACK goatBot  
@@ -24,7 +29,7 @@ const projectData = [
     description: "",
     tags: ["Express", "Node", "API", "Crypto"],
     highlight: true,
-    _dir: VAClock,
+    _dir: goatbot,
   },
   //****************************
   //      stEds CTF  
@@ -36,7 +41,7 @@ const projectData = [
     description: "",
     tags: ["Security"],
     highlight: false,
-    _dir: VAClock,
+    _dir: stedsCTF,
   },
   //****************************
   //      DATA JOURNAL 
@@ -44,11 +49,11 @@ const projectData = [
   {
     image: "/images/data-viz.jpeg",
     title: "Data-Journaling",
-    intro: "This web app aims at deeper self-awareness, via data collection, statistical caluculations, and data-viz graphs.",
+    intro: "This web app aims at deeper self-awareness, via data collection, statistical caluculations, and data-vizualization.",
     description: "",
     tags: ["React", "Express", "Cloud", "Docker", "Stats", "Data-Viz"],
     highlight: true,
-    _dir: VAClock,
+    _dir: dataJournal,
   },
   //****************************
   //      PERONSAL WEBSITE 
@@ -60,7 +65,7 @@ const projectData = [
     description: "",
     tags: ["React", "Cloud", "Docker", "CI/CD"],
     highlight: false,
-    _dir: VAClock,
+    _dir: website,
   },
   //****************************
   //      HackTX 2018
@@ -72,7 +77,7 @@ const projectData = [
     description: "",
     tags: ["7th Place", "RSA", "Reverse-Engineering", "Teamwork", "Cipher"],
     highlight: false,
-    _dir: VAClock,
+    _dir: hackTX,
   }
 ];
 
