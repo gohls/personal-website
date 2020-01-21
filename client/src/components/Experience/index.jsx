@@ -12,8 +12,8 @@ class MyExperience extends React.Component {
             image={experience.image}
             title={experience.title}
             intro={experience.intro}
-            description={experience.description}
             tags={experience.tags}
+            _dir={experience._dir}
           />
         )}
       </div>
