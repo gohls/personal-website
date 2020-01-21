@@ -62,6 +62,12 @@ span.quote {
   font-weight: 300;
 }
 
+@media screen and (max-width: 600px) {
+  span.quote {
+    font-size: 30px;
+  }
+}
+
 i.author-title {
   font-family: "Times New Roman", Times, serif;
 }

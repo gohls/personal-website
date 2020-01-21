@@ -1,4 +1,4 @@
-## Software Engineer Intern
+### Software Engineer Intern
 
 Company Name: **Electronic Arts (EA)**  
 Dates Employed: **May 2019 – Aug 2019**  

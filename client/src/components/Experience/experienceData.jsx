@@ -6,7 +6,7 @@ export const experienceData =
   [{
     image: "/images/revionics.png",
     title: "Revionics SWE Intern",
-    intro: "Spring '20 - planned internship. I'm looking forward to this experience and learning more on AI.",
+    intro: "Spring '20 - planned internship. Awaiting the experience, challanges, and unknowns!",
     tags: ["Python", "AI", "Tool", "Aigle Dev", "Teamwork", "MongoDB"],
     highlight: true,
     _dir: revionics
@@ -14,7 +14,7 @@ export const experienceData =
   {
     image: "/images/ea.png",
     title: "EA SWE Intern",
-    intro: "Summer '19 I got the exciting and unique opportunity to internship as Software Engineer (SWE) at EA.",
+    intro: "Summer '19 I got the exciting and unique opportunity to internship as Software Engineer at EA.",
     tags: ["React", "Flask", "R", "Teamwork", "Rapid Prototyping", "Innovations-Lab"],
     highlight: true,
     _dir: ea
