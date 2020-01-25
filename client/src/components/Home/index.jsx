@@ -2,13 +2,13 @@ import React from 'react';
 import MyCard from "../Card";
 import GreetingBanner from "../GreetingBanner";
 import MyCountdown from "../Countdown";
-import MyTrademark from "../Trademark";
 import SectionTitle from "../SectionTitle";
 import MyEducation from "../Education"
 import experienceData from "../Experience/experienceData"
 import projectData from "../Projects/projectData"
 import "./index.css";
 import MyAboutMe from '../AboutMe';
+import MyCopyright from '../Copyright';
 
 
 export default class Home extends React.Component {
@@ -69,7 +69,7 @@ export default class Home extends React.Component {
         />
         <MyEducation />
 
-        <MyTrademark trademark="Simon Alexander Gohl .:. Spring 2020" />
+        <MyCopyright trademark="Simon Alexander Gohl .:. Spring 2020" />
       </div >
     );
   }

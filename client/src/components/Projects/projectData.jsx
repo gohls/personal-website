@@ -14,7 +14,7 @@ const projectData = [
     image: "/images/v_clock.jpg",
     title: "Vicinity Alarm Clock",
     intro: "The Vicinity Alarm Clock is a home alarm clock that only sounds when you're at home (or technically your phone).",
-    tags: ["IoT", "RasberryPie", "Bluetooth", "Python"],
+    tags: ["IoT", "RasberryPie", "Bluetooth", "Display-Board", "Matrix-Panel", "Python"],
     highlight: true,
     _dir: VAclock,
   },
@@ -24,8 +24,8 @@ const projectData = [
   {
     image: "/images/goatBot.jpg",
     title: "Slack goatBot",
-    intro: '"goatbot" is a Slackbot I made for the Computer Science Club Slack workspace. Get a straight yes or no via gif.',
-    tags: ["Express", "Node", "API", "Crypto"],
+    intro: '"goatBot" is a Slackbot I made for the CS-Club Slack workspace. Ask a question and get a straight yes or no answer via gif.',
+    tags: ["Slackbot", "Slash-Command", "Express", "Node", "API", "Crypto", "CS-Club"],
     highlight: true,
     _dir: goatbot,
   },
@@ -45,8 +45,8 @@ const projectData = [
   //**************************** 
   {
     image: "/images/data-viz.jpeg",
-    title: "Data-Journaling",
-    intro: "This web app aims at deeper self-awareness, via data collection, statistical caluculations, and data-vizualization.",
+    title: "DataTrace",
+    intro: "This web app is a multi-dimensional approach to self-awareness, ",
     tags: ["React", "Express", "Cloud", "Docker", "Stats", "Data-Viz"],
     highlight: true,
     _dir: dataJournal,
@@ -69,7 +69,7 @@ const projectData = [
     image: "/images/HackTX_poster.jpg",
     title: "HackTX Capture the Flag",
     intro: "My team and I placed 7th out of 100+ teams contesting in the offical HackTX '18 Capture the Flag.",
-    tags: ["7th Place", "RSA", "Reverse-Engineering", "Teamwork", "Cipher"],
+    tags: ["HackTX-18", "7th Place", "RSA", "Reverse-Engineering", "Teamwork", "Cipher"],
     highlight: false,
     _dir: hackTX,
   }

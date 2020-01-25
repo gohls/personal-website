@@ -4,10 +4,10 @@ import oit from "./experienceDetails/oit.md"
 
 export const experienceData =
   [{
-    image: "/images/revionics.png",
-    title: "Revionics SWE Intern",
-    intro: "Spring '20 - planned internship. Awaiting the experience, challanges, and unknowns!",
-    tags: ["Python", "AI", "Tool", "Aigle Dev", "Teamwork", "MongoDB"],
+    image: "/images/intern.png",
+    title: "Prospective SWE Intern",
+    intro: "Spring '20 - prospective internship. Awaiting the experience, challanges, and unknowns!",
+    tags: ["Python", "AI", "Tool", "Aigle-Software-Dev", "Teamwork", "MongoDB"],
     highlight: true,
     _dir: revionics
   },
@@ -15,15 +15,15 @@ export const experienceData =
     image: "/images/ea.png",
     title: "EA SWE Intern",
     intro: "Summer '19 I got the exciting and unique opportunity to internship as Software Engineer at EA.",
-    tags: ["React", "Flask", "R", "Teamwork", "Rapid Prototyping", "Innovations-Lab"],
+    tags: ["PoC", "Rapid-Prototyping", "Innovations-Lab", "React", "Flask", "R", "Teamwork"],
     highlight: true,
     _dir: ea
   },
   {
     image: "/images/oit_goat1.jpg",
     title: "OIT Digital Associate",
-    intro: "Working at St. Eds Office of Technology (OIT) as Digital Associate has given me an all-around IT knowledgebase.",
-    tags: ["IT", "Bash", "ProblemSolving", "VirtualMachine"],
+    intro: "Working at St. Eds Office of Technology as Digital Associate has laid a strong IT foundation.",
+    tags: ["IT", "Bash-Scripts", "Problem-Solving", "Imaging", "UEFI-Config", "Salesforce-Desk"],
     highlight: true,
     _dir: oit
   },

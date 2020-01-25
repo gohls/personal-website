@@ -1,3 +1,5 @@
+Authors: **Simon Gohl, Josh Leikam**
+
 ## Intro
 
 This web app aims at deeper self-awareness, via data collection, statistical caluculations, and data-vizualization.

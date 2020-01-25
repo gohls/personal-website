@@ -19,7 +19,7 @@ export default class MyCard extends React.Component {
     const { show } = this.state;
     return (
       <>
-        <Link onClick={() => this.setState({ show: true })}>
+        <Link className="card-style" onClick={() => this.setState({ show: true })}>
           <Card>
             <Card.Img variant="top" src={image} />
             <Card.Body>

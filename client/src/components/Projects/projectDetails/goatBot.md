@@ -1,12 +1,15 @@
+Author: **Simon Gohl**  
+Repo Link: https://bitbucket.org/sgohl/goatbot
+
 ## Intro
 
 "goatbot" is a Slackbot I made for the Computer Science Club Slack workspace. Get a straight yes or no via gif.
 
 ## A simple Slack slash command
 
-_goatbot_ is a Slackbot I made for the Computer Science Club Slack workspace. It takes the slash command "/yesorno [ask a yes or no question]" and will randomly respond with a gif post to the channel with yes or no context.
+_goatBot_ is a Slackbot I made for the Computer Science Club Slack workspace. It takes the slash command "/yesorno \[ask a yes or no question\]" and will randomly respond with a gif post to the channel with yes or no context.
 
-goatbot name derives from my school, St. Edward's University, goat mascot.
+goatBot's name derives from my school, St. Edward's University, goat mascot.
 
 Technologies in this project include: Node.js, Express.js, Axios, and dotenv config. A GET request to a RESTful API endpoint (https://yesno.wtf/api) is made to retrieve the gif.
 

@@ -64,7 +64,8 @@ span.quote {
 
 @media screen and (max-width: 600px) {
   span.quote {
-    font-size: 30px;
+    line-height: 3rem;
+    font-size: 20px;
   }
 }
 

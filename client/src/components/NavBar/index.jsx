@@ -13,10 +13,10 @@ class MyNavBar extends React.Component {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link as={Link} to="/about-me">~/about_me</Nav.Link>
+            {/* <Nav.Link as={Link} to="/">~/</Nav.Link> */}
             <Nav.Link as={Link} to="/experience">~/experience</Nav.Link>
             <Nav.Link as={Link} to="/projects">~/projects</Nav.Link>
-            <Nav.Link as={Link} to="/education">~/education</Nav.Link>
+            {/* <Nav.Link as={Link} to="/education">~/education</Nav.Link> */}
             <Nav.Link as={Link} to="/🥼">~/lab</Nav.Link>
           </Nav>
         </Navbar.Collapse>

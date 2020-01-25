@@ -6,6 +6,7 @@ import MyAboutMe from "./components/AboutMe"
 import MyEducation from "./components/Education"
 import MyExperience from "./components/Experience"
 import MyProjects from "./components/Projects"
+import MyLab from "./components/Lab"
 import "./App.css"
 
 // Text graphics source: https://www.kammerl.de/ascii/AsciiSignature.php
@@ -25,6 +26,7 @@ function App() {
         <Route path='/about-me' component={MyAboutMe} />
         <Route path='/experience' component={MyExperience} />
         <Route path='/projects' component={MyProjects} />
+        <Route path='/🥼' component={MyLab} />
       </div>
     </Router>
   )
