@@ -20,7 +20,7 @@ export const experienceData =
     _dir: ea
   },
   {
-    image: "/images/oit_goat1.jpg",
+    image: "/images/oit_goat.jpg",
     title: "OIT Digital Associate",
     intro: "Working at St. Eds Office of Technology as Digital Associate has laid a strong IT foundation.",
     tags: ["IT", "Bash-Scripts", "Problem-Solving", "Imaging", "UEFI-Config", "Salesforce-Desk"],
