@@ -1,17 +1,16 @@
-Authors: **Simon Gohl, Josh Leikam**
+Authors: **Simon Gohl, Josh Leikam**  
+Repo Link: [https://bitbucket.org/datatrace](https://bitbucket.org/%7B041b1d44-2f99-4566-9baa-fe05e86ccf1a%7D/)
 
 ## Intro
 
-This web app aims at deeper self-awareness, via data collection, statistical caluculations, and data-vizualization.
+A web-app aimed at deeper self-awareness via data collection, statistical caluculations, and data-vizualization.
 
 ## Abstract
 
-When we think of self-awareness, we tend to think of how we are doing in the present moment, or maybe about some big moments in our personal history, but there is often a more subtle side of our being, that—if we don’t give conscious attention to—can get overlooked. Over time, small habits can have a large impact. DataTrace allows users to define an area that they want to track over time—for example, exercise—and to assess progress via an intuitive 1-10 scale. Each assessment is saved (with the ability to comment), so that a user can visit them later for insights on their progress. In short, DataTrace aims to help users connect the dots of their habits and to trace a better future.
+What is self-awareness? Is it a reflection of the present moment, important moments in our past, or of our future goals? Arguably, it is a combination of all three. If we’re not careful, though, the inertia of everyday life can cause us to lose sight of ourselves. Over time, small habits can generate a large impact. The main goal of DataTrace is to promote awareness and assessment of these ‘life categories’ or habits. Using a mix of javascript technologies like MongoDB, ExpressJS, React, and NodeJS, DataTrace empowers the user to identify life categories they would like to track. Similar to a journal, these categories can be assessed and viewed over-time--allowing a user to extract insights. In short, DataTrace aims to help users connect the dots of their habits and trace a better future.
 
 ## Tech Stack
 
 • MERN (MongoDB, Express, React, Nginx)  
-• Docker - Containerization  
-• API
-
-## Link(s)
+• DigitalOcean droplet  
+• Docker - Containerization

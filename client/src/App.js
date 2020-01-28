@@ -8,6 +8,10 @@ import MyExperience from "./components/Experience"
 import MyProjects from "./components/Projects"
 import MyLab from "./components/Lab"
 import "./App.css"
+// Google Analytics
+import ReactGA from "react-ga"
+ReactGA.initialize("UA-157147886-1")
+ReactGA.pageview(window.location.pathname + window.location.search)
 
 // Text graphics source: https://www.kammerl.de/ascii/AsciiSignature.php
 // Webpage easter egg
@@ -23,7 +27,7 @@ function App() {
       <div className='app'>
         <MyNavBar />
         <Route exact path='/' component={Home} />
-        <Route path='/about-me' component={MyAboutMe} />
+        {/* <Route path='/about-me' component={MyAboutMe} /> */}
         <Route path='/experience' component={MyExperience} />
         <Route path='/projects' component={MyProjects} />
         <Route path='/🥼' component={MyLab} />

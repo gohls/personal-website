@@ -7,7 +7,7 @@ export const experienceData =
     image: "/images/intern.png",
     title: "Prospective SWE Intern",
     intro: "Spring '20 - prospective internship. Awaiting the experience, challanges, and unknowns!",
-    tags: ["Python", "AI", "Tool", "Aigle-Software-Dev", "Teamwork", "MongoDB"],
+    tags: ["Experience", "Challenges", "Unknowns", "Teamwork", "SWE", "Learning"],
     highlight: true,
     _dir: revionics
   },

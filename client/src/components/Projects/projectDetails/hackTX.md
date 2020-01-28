@@ -4,15 +4,14 @@ THIS PROJECT IS STILL IN THE EARLY RESEARCH & DESIGN STAGES
 
 The Vicinity Alarm Clock (\/\\C) is a home alarm clock that only sounds when you're at home (or technically your phone).
 
-## Description
+### Team: Regulators
 
-\/\\C is something a bit unique in that I tend to stay a lot of other places and so I forget to turn off and on my home alarm clock. Needless to say, my neighbors are not happy with me, when I forget to turn it off. And I'm not happy, when I forget to turn it on. So, this would be a problem solved techology for me!
+<img src="/images/regulators.jpeg" alt="regulators" width="100%"/>
 
-Furthermore, it will be a nice project for me to start home automations as well as get familiar with some new technologies such as bluetooth and maybe some display board stuff.
+### CTF Results
 
-## Tech Stack
+<a href="/images/hackTX-CTF.pdf" download>
+  Download_complete-ctf-team-list
+</a>
 
-- Rasberry Pi (IoT device)
-- Bluetooth (range network signal)
-- Python (Language)
-- Ubuntu (OS)
+<img src="/images/hackTX-CTF.jpg" alt="hackTX-ctf" width="100%"/>

@@ -1,18 +1,44 @@
-THIS PROJECT IS STILL IN THE EARLY RESEARCH & DESIGN STAGES
+Author: **Simon Gohl, Josh L., Rubin R., Jonah T.**  
+Repo Link: [https://bitbucket.org/stedsctf](https://bitbucket.org/%7B392821ab-8307-4a6d-a6c6-f24bb3cd7c4e%7D/)
 
-## Outline
+## Welcome
 
-The Vicinity Alarm Clock (\/\\C) is a home alarm clock that only sounds when you're at home (or technically your phone).
+Thank you for participating in stedsCTF#1. This repo holds the source code for most challenges. If you have any questions about how the challenges were built or about anything else, please ask in the slack or talk to us on campus.
 
-## Description
+Cheers
 
-\/\\C is something a bit unique in that I tend to stay a lot of other places and so I forget to turn off and on my home alarm clock. Needless to say, my neighbors are not happy with me, when I forget to turn it off. And I'm not happy, when I forget to turn it on. So, this would be a problem solved techology for me!
+## Challenges
 
-Furthermore, it will be a nice project for me to start home automations as well as get familiar with some new technologies such as bluetooth and maybe some display board stuff.
+• Bash  
+• Crypto  
+• Forensics  
+• Misc  
+• Networking  
+• Trivia  
+• Web  
+• Whiteboard
 
-## Tech Stack
+### Example: crypto1
 
-- Rasberry Pi (IoT device)
-- Bluetooth (range network signal)
-- Python (Language)
-- Ubuntu (OS)
+`c3RlZHNDVEZ7YkA1ZTY0fQ==`
+
+## Photos
+
+<img src="/images/ctf1.jpg" alt="ctf-event" width="100%"/>
+<br>
+<img src="/images/ctf3.jpg" alt="ctf-event" width="100%"/>
+<br>
+<img src="/images/ctf2.jpg" alt="ctf-event" width="100%"/>
+
+### **_Challenge for visitors below_**👇
+
+.  
+.  
+.  
+. <!-- EASY CLAP 👏 👍 -->  
+.  
+.
+
+```
+# Leave me a  comment  when you figure it out! :)
+```

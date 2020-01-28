@@ -42,7 +42,8 @@ The following configuration were used:
 
 ##### Example: **/yesorno will I install this slash command?**
 
-![Alt Text](https://yesno.wtf/assets/yes/2-5df1b403f2654fa77559af1bf2332d7a.gif)
+<!-- ![Alt Text](https://yesno.wtf/assets/yes/2-5df1b403f2654fa77559af1bf2332d7a.gif) -->
+<img src="https://yesno.wtf/assets/yes/2-5df1b403f2654fa77559af1bf2332d7a.gif" alt="yes-gif" width="75%"/>
 
 ## Sources
 
