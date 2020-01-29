@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom"
 import MyCard from "../Card";
 import GreetingBanner from "../GreetingBanner";
 import MyCountdown from "../Countdown";
@@ -21,10 +22,7 @@ export default class Home extends React.Component {
       <div>
         <GreetingBanner
         />
-        <SectionTitle
-          subDir={"/about_me"}
-          curDir={" | less"}
-        />
+
         <MyAboutMe />
         <SectionTitle
           subDir={"/experience"}
@@ -64,8 +62,8 @@ export default class Home extends React.Component {
           )}
         </div>
         <SectionTitle
-          subDir={"/education"}
-          curDir={"/overview"}
+          // subDir={"/education+qualification"}
+          curDir={"/education+skills"}
         />
         <MyEducation />
 

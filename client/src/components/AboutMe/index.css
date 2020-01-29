@@ -3,10 +3,29 @@ img.profile-img {
 }
 
 .img-col {
-  margin: auto;
+  /* margin: auto; */
+  vertical-align: top;
+  margin-top: 2.5%;
 }
 
 hr {
   color: white;
   border-top-color: white;
+}
+
+@media (max-width: 767px) {
+  .title {
+    text-align: center;
+    font-size: 1.95rem;
+  }
+}
+
+/* a.subDir {
+  background-color: rgba(21, 21, 21, 0.1);
+} */
+
+a.title-link:hover {
+  background-color: #212121;
+  color: white;
+  text-decoration: underline;
 }

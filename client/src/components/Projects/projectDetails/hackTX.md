@@ -1,6 +1,4 @@
-THIS PROJECT IS STILL IN THE EARLY RESEARCH & DESIGN STAGES
-
-## Outline
+## Summary
 
 The Vicinity Alarm Clock (\/\\C) is a home alarm clock that only sounds when you're at home (or technically your phone).
 
