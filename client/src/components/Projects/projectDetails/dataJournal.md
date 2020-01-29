@@ -14,3 +14,7 @@ What is self-awareness? Is it a reflection of the present moment, important mome
 • MERN (MongoDB, Express, React, Nginx)  
 • DigitalOcean droplet  
 • Docker - Containerization
+
+### App Screen Shot
+
+<img src="/images/dataTrace-screenshot.png" alt="dataTrace" width="100%"/>

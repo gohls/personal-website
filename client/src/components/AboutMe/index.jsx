@@ -27,13 +27,13 @@ class MyAboutMe extends React.Component {
   render() {
     const open = this.state.open;
 
-    const less1 = "I was born in Texas, raised in Germany and grew up in California. Now I've gone full circle and am back at my birthplace studying Computer Science at St. Edward's University in Austin, Texas."
+    const less1 = "I was born in Texas, raised in Germany and grew up in California. Now, I've gone full circle and am back at my birthplace studying Computer Science at St. Edward's University in Austin, Texas."
 
-    const less2 = "I've been in Austin for 4 years but only began going back to school about 2 years ago. Before that, I had completed some college and was working as a social worker. After 5 fulfilling but challenging years in that field, I decided it was time for a change. I made the difficult and risky choice to go back to school full time in a field I had long had interest in - Computer Science."
+    const less2 = "I've been in Austin for 4 years but only began going back to school full-time about 2 years ago. Before that, I already completed some college and was working as a social worker. After 5 fulfilling but challenging years in that field, I decided it was time for a change. I made the difficult and risky choice to quit my job and to go back to school full-time in a field I had long had interest in - Computer Science."
 
     const less3 = "Now, I am focusing my efforts on doing all things Computer Science including software development projects, participation in hackathons and capture the flag challenges (CTF), and attending coding and cybersecurity events. When I'm not studying or doing the aforementioned extra curricular activities, I also enjoy working out, taking walks, trying new foods and watching Netflix."
 
-    const more1 = "While I enjoy most things coding, a particularly interest of mine is in the field of cyber security. Part of the reason is definitely the challenge - and all the headbanging >:] However, it's also about understanding what's happening behind the curtains of code, so to speak. Assembly language and reverse engineering do just that for me."
+    const more1 = "While I enjoy most things coding, a particular interest of mine is in the field of cyber security. Part of the reason is definitely the challenge - and all the headbanging 💆‍♂️. The Jr. Pentester cert was fun. But I really enjoy getting deeper than just running exploits - I like to take a look under the hood, reverse engineer binaries and using assembly to modify the code, and create shell code."
 
     if (!this.props.isMobile()) {
       return (

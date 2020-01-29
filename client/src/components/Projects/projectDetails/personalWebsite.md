@@ -1,27 +1,19 @@
 ## Intro
 
-My personal portfolio website - developed to highlight qualification per its contents and per its developement itself.
+My personal portfolio website made to highlight **`me`** and my qualifications, while also highlighting my programming skills through the development itself.
 
-## A portofolio and playground
+## Development Cycles
 
-My personal portofilo website! This website has been under developement for quite some time - I'm constantly re-design, refactoring, and reviewing. Hence, the quote in the welcome banner. It's also thought me the
+This website has been under developement for quite some time, but it could've been done a long time ago. My "inner critic", or as "customer" of my own page, I keep scope creeping ideas into it. However, I would say it's at about 90% done, so I'm official announcing the release of `simongohl.me`!
 
 ## Learning of Technologies (LoT)
 
-As part of building my website, I wanted to learn new techologies. I outlined the techologies I used below with some additional information.
+As part of building my website, I want to learn new techologies. So as mentioned, the /🥼 directory will serve as my playground to test out things. As of right now, I do not have anything... but the first thing I plan on experimenting with is blockchain algorithms - maybe a blockchain bulletin board?!
 
-### `React`
+## Tech
 
-React is emerging as the most popluar frontend UI framework. After having done a few projects using React, I continue to
+Technologies involved in my website include:
 
-find it myself a great framework to build web UI's.
+React • Express • Docker containers • DigitalOcean droplet • Nginx • fetch requests
 
-Developing my website with React has definitely boosted my skills in it.
-
-### `Docker`
-
-Docker container is another hot techology being used in deployment.
-
-### `CI/CD`
-
-This part is still being worked on.
+(Backend functionalities is this in the works)

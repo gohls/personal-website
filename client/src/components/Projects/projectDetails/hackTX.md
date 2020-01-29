@@ -1,10 +1,14 @@
-## Summary
+Team: **Simon Gohl, Josh L., Jonah T.**
 
-The Vicinity Alarm Clock (\/\\C) is a home alarm clock that only sounds when you're at home (or technically your phone).
+## HackTX '18
 
-### Team: Regulators
+This was my first participation in a CTF with friends under the team name - `Regulators` and we placed 7th out of 100 teams at the HackTX CTF event.
 
-<img src="/images/regulators.jpeg" alt="regulators" width="100%"/>
+#### Team Photo
+
+<img src="/images/regulators.jpeg" alt="regulators" width="65%"/>
+
+Left to right: Jonah T., Josh L., Simon Gohl (me)
 
 ### CTF Results
 
@@ -12,4 +16,4 @@ The Vicinity Alarm Clock (\/\\C) is a home alarm clock that only sounds when you
   Download_complete-ctf-team-list
 </a>
 
-<img src="/images/hackTX-CTF.jpg" alt="hackTX-ctf" width="100%"/>
+<img src="/images/HackTX-CTF.jpg" alt="hackTX-ctf" width="100%"/>

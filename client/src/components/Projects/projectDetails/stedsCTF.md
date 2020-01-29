@@ -1,22 +1,13 @@
-Author: **Simon Gohl, Josh L., Rubin R., Jonah T.**  
+Creators and hosted by: **Simon Gohl, Josh L., Rubin R., Jonah T.**  
 Repo Link: [https://bitbucket.org/stedsctf](https://bitbucket.org/%7B392821ab-8307-4a6d-a6c6-f24bb3cd7c4e%7D/)
 
-## Welcome
+## Promotion
 
-Thank you for participating in stedsCTF#1. This repo holds the source code for most challenges. If you have any questions about how the challenges were built or about anything else, please ask in the slack or talk to us on campus.
-
-Cheers
+We are not talking about the outdoor game. This Capture the Flag (CTF) is a competition in computer science. More specifically, CTF events involve solving challenges such as in programming, cryptography, web, recon, and many more. Solving a challenge == capturing a flag. Flags == points. The team with the most points in the end wins or the team that solves all challenges first - unlikely MUAHAHHA >:)
 
 ## Challenges
 
-• Bash  
-• Crypto  
-• Forensics  
-• Misc  
-• Networking  
-• Trivia  
-• Web  
-• Whiteboard
+Bash • Crypto • Forensics • Misc • Networking • Trivia • Web • Whiteboard
 
 ### Example: crypto1
 
@@ -24,11 +15,11 @@ Cheers
 
 ## Photos
 
-<img src="/images/ctf1.jpg" alt="ctf-event" width="100%"/>
+<img src="/images/ctf1.jpg" alt="ctf-event" width="75%"/>
 <br>
-<img src="/images/ctf3.jpg" alt="ctf-event" width="100%"/>
+<img src="/images/ctf3.jpg" alt="ctf-event" width="75%"/>
 <br>
-<img src="/images/ctf2.jpg" alt="ctf-event" width="100%"/>
+<img src="/images/ctf2.jpg" alt="ctf-event" width="75%"/>
 
 ### **_Challenge for visitors below_**👇
 

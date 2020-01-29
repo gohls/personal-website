@@ -10,7 +10,7 @@ class MyCountdown extends React.Component {
     super(props);
     this.state = {
       // Graduation countdown data
-      countdown: 'May 9, 2020',
+      countdown: 'May 9, 2020 10:00',
       // Values to display
       days: 0,
       hours: 0,

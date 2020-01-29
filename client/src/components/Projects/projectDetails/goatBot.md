@@ -3,7 +3,7 @@ Repo Link: https://bitbucket.org/sgohl/goatbot
 
 ## Intro
 
-"goatbot" is a Slackbot I made for the Computer Science Club Slack workspace. Get a straight yes or no via gif.
+"goatBot" is a Slackbot I made for the Computer Science Club Slack workspace. Get a straight yes or no via gif.
 
 ## A simple Slack slash command
 
@@ -13,37 +13,12 @@ goatBot's name derives from my school, St. Edward's University, goat mascot.
 
 Technologies in this project include: Node.js, Express.js, Axios, and dotenv config. A GET request to a RESTful API endpoint (https://yesno.wtf/api) is made to retrieve the gif.
 
-## Slack setup
-
-**I.** Follow https://api.slack.com/slash-commands for general `Slack app` + `slash commands` setup  
-**II.** Edit `Slash Commands`
-
-The following configuration were used:
-
-• **Command:** `/yesorno`  
-• **Request URL:** your URL + `/command`  
-• **Short Description:** `Get a straight yes or no answer`  
-• **Usage Hint:** `[ask a yes or no question]`  
-• **Escape channels, users, and links sent to your app:** `[x]`
-
-## Local setup
-
-**I.** `git clone https://sgohl@bitbucket.org/sgohl/goatbot.git` to clone repo  
-**II.** `npm install` to install dependencies  
-**III.** Create `.env` file and configure with your Slack credentials
-
-• **SLACK_CLIENT_ID=** xxxx-yyyy  
-• **SLACK_CLIENT_SECRET=** y0urcl13n753cr37  
-• **SLACK_SIGNING_SECRET=** y0ur516n1n653cr37
-
-##### 4. `npm start` to run the app locally
-
-## Voilà!
-
 ##### Example: **/yesorno will I install this slash command?**
 
 <!-- ![Alt Text](https://yesno.wtf/assets/yes/2-5df1b403f2654fa77559af1bf2332d7a.gif) -->
 <img src="https://yesno.wtf/assets/yes/2-5df1b403f2654fa77559af1bf2332d7a.gif" alt="yes-gif" width="75%"/>
+<br>
+<br>
 
 ## Sources
 
