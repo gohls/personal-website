@@ -22,31 +22,41 @@ class MyEducation extends React.Component {
               <b>Field of Study:</b> Computer Science <br />
 
               <h3>Lang's</h3>
-              Java
-              • Python
-              • Bash
-              • React
-              • Node
+              Assembly Language
+                        • Bash
+                        • C
+                        • Go
+                        • <b>Java </b>
               • JavaScript
-              • MongoDB
-              • MySQL
+              • NoSQL
+              • PHP
+                        • <b>Python </b>
+              • R
+              • Swift
+              • SQL
+                   <h3>Tech</h3>
+              <b>DBMS:</b> MongoDB • MySQL <br />
+              <b>Frameworks/Libraries:</b> Bootstrap
+                • Django
+                • Express
+                • Flask
+                • Mongoose
+                • Node
+                • React
                    <h3>Tools</h3>
               Docker
-              • GDB
-              • IDE's (Eclipse, JetBrains, VS Code)
-              • Trello
-              • Vim
-              • VirtualBox
-              • VS Code
-              • Wireshark
-                   <h3>Skills</h3>
-              Java
-              • Python
-              • React
-              • Node
-              • JavaScript
-              • MongoDB
-              • MySQL
+                   • Cloud computing: AWS EC2, DigitalOcean Droplet, Google Compute Engine - VM Instance, Heroku App Platform
+                   • GDB
+                   • Git (Bitbucket, GitHub)
+                   • IDE's: Eclipse, IntelliJ, PyCharm, VS Code, Xcode
+                   • Netcat
+                   • Postman
+                   • Slack
+                   • Tmux
+                   • Trello
+                   • Vim
+                   • VirtualBox
+                   • Wireshark
                   <h3>Courses</h3>
               Algorithms & Data Structures
               • Component-Based Programming
@@ -62,13 +72,19 @@ class MyEducation extends React.Component {
                     <h3>Cert's</h3>
               eJPT - eLearnSecurity Junior Penetration Tester
               <h3>Other</h3>
-              Scrum
-              • Python
-              • React
-              • Node
-              • JavaScript
-              • MongoDB
-              • MySQL
+              Docker
+              • Cloud computing: AWS EC2, DigitalOcean Droplet, Google Compute Engine - VM Instance, Heroku App Platform
+              • GDB
+              • Git (Bitbucket, GitHub)
+              • IDE's: Eclipse, IntelliJ, PyCharm, VS Code, Xcode
+              • Netcat
+              • Postman
+              • Slack
+              • Tmux
+              • Trello
+              • Vim
+              • VirtualBox
+              • Wireshark
             </Container>
           </div>
         </Jumbotron>

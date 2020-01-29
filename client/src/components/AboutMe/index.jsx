@@ -65,7 +65,7 @@ class MyAboutMe extends React.Component {
       return (
         <Jumbotron className="education-jumbo">
           <div>
-            <Container>
+            
               <center>
                 <img className="profile-img" src="/images/me2.jpg" alt="Avatar" width="275" height="275" />
               </center>
@@ -89,7 +89,7 @@ class MyAboutMe extends React.Component {
               cybersecurity events. When I'm not studying or doing the aforementioned
               extra curricular activities, I also enjoy working out, taking walks, trying
               new foods and watching Netflix
-          </Container>
+         
           </div>
         </Jumbotron>
       )
