@@ -23,55 +23,29 @@ class MyEducation extends React.Component {
 
               <h3>Lang's</h3>
               Assembly Language
-                        • Bash
-                        • C
-                        • Go
-                        • <b>Java </b>
+              • Bash
+              • C
+              • Go
+              • <b>Java </b>
               • JavaScript
               • NoSQL
               • PHP
-                        • <b>Python </b>
+              • <b>Python </b>
               • R
               • Swift
               • SQL
-                   <h3>Tech</h3>
+
+              <h3>Tech</h3>
               <b>DBMS:</b> MongoDB • MySQL <br />
               <b>Frameworks/Libraries:</b> Bootstrap
-                • Django
-                • Express
-                • Flask
-                • Mongoose
-                • Node
-                • React
-                   <h3>Tools</h3>
-              Docker
-                   • Cloud computing: AWS EC2, DigitalOcean Droplet, Google Compute Engine - VM Instance, Heroku App Platform
-                   • GDB
-                   • Git (Bitbucket, GitHub)
-                   • IDE's: Eclipse, IntelliJ, PyCharm, VS Code, Xcode
-                   • Netcat
-                   • Postman
-                   • Slack
-                   • Tmux
-                   • Trello
-                   • Vim
-                   • VirtualBox
-                   • Wireshark
-                  <h3>Courses</h3>
-              Algorithms & Data Structures
-              • Component-Based Programming
-              • Computer Security & Privacy
-              • Computing Sciences Concepts I/II + Lab
-              • Database Theory
-              • Intro Computer Organization & Architecture
-              • Operating Systems
-              • Program Languages
-              • Senior Research Project
-              • Software Engineering Ⅰ/II + Research
-              • Web Programming
-                    <h3>Cert's</h3>
-              eJPT - eLearnSecurity Junior Penetration Tester
-              <h3>Other</h3>
+              • Django
+              • Express
+              • Flask
+              • Mongoose
+              • Node
+              • React
+
+              <h3>Tools</h3>
               Docker
               • Cloud computing: AWS EC2, DigitalOcean Droplet, Google Compute Engine - VM Instance, Heroku App Platform
               • GDB
@@ -85,6 +59,37 @@ class MyEducation extends React.Component {
               • Vim
               • VirtualBox
               • Wireshark
+
+              <h3>Courses</h3>
+              Algorithms & Data Structures
+              • Component-Based Programming
+              • Computer Security & Privacy
+              • Computing Sciences Concepts I/II + Lab
+              • Database Theory
+              • Intro Computer Organization & Architecture
+              • Operating Systems
+              • Program Languages
+              • Senior Research Project
+              • Software Engineering Ⅰ/II + Research
+              • Web Programming
+
+              <h3>Cert's</h3>
+              eJPT - eLearnSecurity Junior Penetration Tester
+
+              <h3>Other</h3>
+              Agile Software Development
+              • Backlogging/Sprints Planning
+              • CI/CD
+              • HackerRank: Problem Solving Gold Badge
+              • IoT (Raspberry Pi)
+              • Linux distributions: Arch, Kali, Ubuntu
+              • Nginx configuration
+              • Scrum Team/Master
+              • SDLC
+              • System Diagram & Design Artifacts
+              • UCD
+              • Unit/Integration Testing
+
             </Container>
           </div>
         </Jumbotron>
