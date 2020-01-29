@@ -4,7 +4,7 @@ import oit from "./experienceDetails/oit.md"
 
 export const experienceData =
   [{
-    image: "/images/intern.png",
+    image: "/images/intern.jpg",
     title: "Prospective SWE Intern",
     intro: "Spring '20 - prospective internship. Awaiting the experience, challanges, and unknowns!",
     tags: ["Experience", "Challenges", "Unknowns", "Teamwork", "SWE", "Learning"],
