@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from "react-router-dom"
 import MyCard from "../Card";
 import GreetingBanner from "../GreetingBanner";
 import MyCountdown from "../Countdown";

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from "react-router-dom"
 import Jumbotron from "react-bootstrap/Jumbotron"
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
@@ -75,7 +74,7 @@ class MyEducation extends React.Component {
               • Web Programming
 
               <h3>Cert's</h3>
-              <Link to="https://verified.elearnsecurity.com/certificates/c9372b00-794b-4afd-af14-6e8b7f72af48">eJPT - eLearnSecurity Junior Penetration Tester</Link>
+              <a href="https://verified.elearnsecurity.com/certificates/c9372b00-794b-4afd-af14-6e8b7f72af48" target="_blank" rel="noopener noreferrer">eJPT - eLearnSecurity Junior Penetration Tester</a>
 
               <h3>Other</h3>
               Agile Software Development
@@ -193,7 +192,7 @@ class MyEducation extends React.Component {
                     <tr>
                       <td className="edu-field"><h3>Cert's</h3></td>
                       <td>
-                        <a href="https://verified.elearnsecurity.com/certificates/c9372b00-794b-4afd-af14-6e8b7f72af48" target="_blank">eJPT - eLearnSecurity Junior Penetration Tester</a>
+                        <a href="https://verified.elearnsecurity.com/certificates/c9372b00-794b-4afd-af14-6e8b7f72af48" target="_blank" rel="noopener noreferrer">eJPT - eLearnSecurity Junior Penetration Tester</a>
                       </td>
                     </tr>
                     <tr>

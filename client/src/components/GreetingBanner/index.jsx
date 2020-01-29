@@ -6,7 +6,7 @@ export default class MyProfileBanner extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      timeOfDay: "day",
+      timeOfDay: "day"
     };
   }
 
@@ -24,7 +24,7 @@ export default class MyProfileBanner extends React.Component {
 
   render() {
     return (
-      <Jumbotron className="banner">
+      <Jumbotron className={this.state.timeOfDay}>
         <h1 className="welome-msg-header">Good {this.state.timeOfDay}, I'm Simon.</h1>
         <div className="welome-msg-sub">
           I'm a senior computer science student at St.

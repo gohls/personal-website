@@ -1,5 +1,24 @@
-.banner {
+.morning {
   background-image: url("/images/austin.jpeg");
+  /* Source: https://coolbackgrounds.io/ */
+  /* background: linear-gradient(45deg, #080808 0%, #5489af 100%); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  border-radius: 0;
+}
+
+.afternoon {
+  background-image: url("/images/austin1.jpeg");
+  /* Source: https://coolbackgrounds.io/ */
+  /* background: linear-gradient(45deg, #080808 0%, #5489af 100%); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  border-radius: 0;
+}
+.evening {
+  background-image: url("/images/austin2.jpeg");
   /* Source: https://coolbackgrounds.io/ */
   /* background: linear-gradient(45deg, #080808 0%, #5489af 100%); */
   background-size: cover;

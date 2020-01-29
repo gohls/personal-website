@@ -21,10 +21,10 @@ class MyNavBar extends React.Component {
           </Nav>
         </Navbar.Collapse>
         <Navbar.Collapse className="justify-content-end">
-          <a href="https://www.linkedin.com/in/sagohl/" target="_blank" className="fab fa-linkedin fa-2x" />
-          <a href="https://bitbucket.org/sgohl/" target="_blank" className="fab fa-bitbucket fa-2x" />
-          <a href="https://www.hackerrank.com/sgohl" target="_blank" className="fab fa-hackerrank fa-2x" />
-          <a href="mailto:sgohl@stedwards.edu" target="_blank" className="fas fa-envelope fa-2x" />
+          <a href="https://www.linkedin.com/in/sagohl/" target="_blank" className="fab fa-linkedin fa-2x" rel="noopener noreferrer" />
+          <a href="https://bitbucket.org/sgohl/" target="_blank" className="fab fa-bitbucket fa-2x" rel="noopener noreferrer" />
+          <a href="https://www.hackerrank.com/sgohl" target="_blank" className="fab fa-hackerrank fa-2x" rel="noopener noreferrer" />
+          <a href="mailto:sgohl@stedwards.edu" target="_blank" className="fas fa-envelope fa-2x" rel="noopener noreferrer" />
         </Navbar.Collapse>
       </Navbar >
     );

@@ -4,6 +4,12 @@ import projectData from "./projectData"
 import "./index.css";
 
 class MyProjects extends React.Component {
+
+  // Workaround to start at top of page (especially on mobile)
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
       <div className="cards">

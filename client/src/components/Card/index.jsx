@@ -1,8 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import Modal from "react-bootstrap/Modal"
 import MyModal from "../Modal"
-import style from "./index.css"; //style overright for cards
+import "./index.css"; //style overright for cards
 import { Link } from 'react-router-dom';
 
 

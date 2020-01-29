@@ -10,7 +10,7 @@ The Vicinity Alarm Clock is the autmation of turning your home alarm clock **`on
 
 ## Tech
 
-I anticipate this project technologies and hardware to include:
+I anticipate technologies and hardware of this project to include:
 
 • Raspberry Pi (IoT device)  
 • Matrix-Panel (Display board)  

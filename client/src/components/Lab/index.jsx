@@ -2,9 +2,9 @@ import React from "react";
 import "./index.scss"
 
 export default class MyLab extends React.Component {
-  constructor(props) {
-    super(props);
-  }
+  // constructor(props) {
+  //   super(props);
+  // }
 
 
 

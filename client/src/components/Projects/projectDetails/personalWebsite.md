@@ -1,3 +1,6 @@
+Author: **Simon Gohl**  
+Repo: https://bitbucket.org/sgohl/my-react-website/
+
 ## Intro
 
 My personal portfolio website made to highlight **`me`** and my qualifications, while also highlighting my programming skills through the development itself.
@@ -8,12 +11,12 @@ This website has been under developement for quite some time, but it could've be
 
 ## Learning of Technologies (LoT)
 
-As part of building my website, I want to learn new techologies. So as mentioned, the /🥼 directory will serve as my playground to test out things. As of right now, I do not have anything... but the first thing I plan on experimenting with is blockchain algorithms - maybe a blockchain bulletin board?!
+As part of building my website, I want to learn new techologies. So as mentioned, the ~/🥼 directory will serve as my playground to test out things. As of right now, I do not have anything... but one of the first things I plan on experimenting with is blockchain algorithms - maybe a blockchain bulletin board?!
 
 ## Tech
 
 Technologies involved in my website include:
 
-React • Express • Docker containers • DigitalOcean droplet • Nginx • fetch requests
+React • Express • Docker containers • DigitalOcean droplet • Nginx
 
-(Backend functionalities is this in the works)
+(Backend implementation pending)
