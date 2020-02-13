@@ -2,6 +2,7 @@ import revionics from "./experienceDetails/revionics.md"
 import ea from "./experienceDetails/ea.md"
 import oit from "./experienceDetails/oit.md"
 
+// Changed intern file to lowercase
 export const experienceData =
   [{
     image: "/images/intern.jpg",
