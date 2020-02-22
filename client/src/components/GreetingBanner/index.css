@@ -39,6 +39,8 @@
 
 .jumbotron {
   padding: 5rem 2rem 7rem 2rem;
+  /* height: 92vh; */
+  /* position: fixed; */
 }
 
 .fab {

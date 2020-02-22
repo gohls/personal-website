@@ -1,19 +1,11 @@
-import revionics from "./experienceDetails/revionics.md"
 import ea from "./experienceDetails/ea.md"
 import oit from "./experienceDetails/oit.md"
+import csc from "./experienceDetails/csc.md"
 
 // TODO: Changed intern file to lowercase
 // test change
 export const experienceData =
   [{
-    image: "/images/intern.jpg",
-    title: "Prospective SWE Intern",
-    intro: "Spring '20 - prospective internship. Awaiting the experience, challenges, and unknowns!",
-    tags: ["Experience", "Challenges", "Unknowns", "Teamwork", "SWE", "Learning", "Opportunity"],
-    highlight: true,
-    _dir: revionics
-  },
-  {
     image: "/images/ea.png",
     title: "EA SWE Intern",
     intro: "Summer '19 I got the exciting and unique opportunity to internship as Software Engineer at EA.",
@@ -29,6 +21,14 @@ export const experienceData =
     highlight: true,
     _dir: oit
   },
+  {
+    image: "/images/csc.png",
+    title: "CS Club President",
+    intro: "As the CS President I've had the opportunity to build community and knowledge transfer amoung CS students.",
+    tags: ["Leadership", "Networking", "Event-Planning", "Org-Duties"],
+    highlight: true,
+    _dir: csc
+  }
   ]
 
 export default experienceData;
