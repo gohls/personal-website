@@ -1,6 +1,7 @@
 import ea from "./experienceDetails/ea.md"
 import oit from "./experienceDetails/oit.md"
 import csc from "./experienceDetails/csc.md"
+import cm from "./experienceDetails/cm.md"
 
 // TODO: Changed intern file to lowercase
 // test change
@@ -24,10 +25,18 @@ export const experienceData =
   {
     image: "/images/csc.png",
     title: "CS Club President",
-    intro: "As CS President I've had the privilege to lead and learn from a great CS community",
-    tags: ["Leadership", "Networking", "CS-Community", "Knowledge-Transfer"],
+    intro: "As CS President I've had the privilege to lead and learn from a great CS community.",
+    tags: ["Leadership", "Networking", "CS-Community", "Knowledge-Transfer", "Learning"],
     highlight: true,
     _dir: csc
+  },
+  {
+    image: "/images/cm.png",
+    title: "Case Manager",
+    intro: "Case Management has given real-world experience and more-so a humble experience to help individuals with disabilities.",
+    tags: ["Management", "Work-Experience", "Communication-Skills", "Social-Services"],
+    highlight: false,
+    _dir: cm
   }
   ]
 
