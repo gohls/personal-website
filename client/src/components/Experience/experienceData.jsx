@@ -24,8 +24,8 @@ export const experienceData =
   {
     image: "/images/csc.png",
     title: "CS Club President",
-    intro: "As the CS President I've had the opportunity to build community and knowledge transfer amoung CS students.",
-    tags: ["Leadership", "Networking", "Event-Planning", "Org-Duties"],
+    intro: "As CS President I've had the privilege to lead and learn from a great CS community",
+    tags: ["Leadership", "Networking", "CS-Community", "Knowledge-Transfer"],
     highlight: true,
     _dir: csc
   }
